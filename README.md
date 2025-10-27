@@ -69,7 +69,7 @@ The goal is to benchmark the **performance** and **response time** of the two se
 - https://github.com/serdargulum/CSharpService
 
 2. Configure the database connection in each repository as described in their README.md files and run services.
-3. Use LaravelService migrations to create and populate the database.
+3. Use LaravelService migrations to create the database and seeders to populate it.
 ```bash
 php artisan migrate   
 
