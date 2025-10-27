@@ -2,9 +2,22 @@
 
 class Program
 {
-    const int totalIteration = 1000; // make it static constant
+    const int totalIteration = 1000;
+
+    static readonly HttpClient client = new HttpClient();
 
     static async Task Main(string[] args)
+    {
+        var options = GetOptions();
+
+        foreach (var item in options)
+        {
+            Console.WriteLine($"Key: {item.Key}, Value: {item.Value}");
+            await CallService(item.Value, item.Key);
+        }
+    }
+
+    static Dictionary<string, string> GetOptions()
     {
         Dictionary<string, string> options = new Dictionary<string, string>();
         options.Add("CSharpService - Async EF", "http://localhost:5230/api/products/async");
@@ -17,11 +30,7 @@ class Program
         options.Add("LaravelService - Void", "http://127.0.0.1:8000/api/test/void");
         options.Add("LaravelService - Calculation", "http://127.0.0.1:8000/api/test/calculation");
 
-        foreach (var item in options)
-        {
-            Console.WriteLine($"Key: {item.Key}, Value: {item.Value}");
-            await CallService(item.Value, item.Key);
-        }
+        return options;
     }
 
     static async Task CallService(string url, string key)
@@ -29,7 +38,6 @@ class Program
         int totalRequests = totalIteration;
         int success = 0;
 
-        using HttpClient client = new HttpClient();
         Stopwatch stopwatch = Stopwatch.StartNew();
 
         for (int i = 0; i < totalRequests; i++)

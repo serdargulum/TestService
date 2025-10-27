@@ -65,6 +65,9 @@ The goal is to benchmark the **performance** and **response time** of the two se
 ## Usage
 
 1. Clone all respective repositories.  
-2. Configure the database connection in each project as described in README.md files.
-3. Use the Test Service repository to send requests to `/api/products` and measure response time.
- 
+2. Configure the database connection in each project as described in their README.md files.
+3. Use LaravelService migrations to create and populate the database.
+4. Use the TestService repository to send requests to the respective APIs and measure response time.
+ ```bash
+ dotnet run
+ ```

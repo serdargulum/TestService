@@ -12,3 +12,4 @@
 /Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/TestService.pdb
 /Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/TestService.genruntimeconfig.cache
 /Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/ref/TestService.dll
+/Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/TestService.sourcelink.json
