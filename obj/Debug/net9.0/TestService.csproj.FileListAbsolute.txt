@@ -1,0 +1,14 @@
+/Users/serdargulum/Projects/GITHUB/TestService/bin/Debug/net9.0/TestService
+/Users/serdargulum/Projects/GITHUB/TestService/bin/Debug/net9.0/TestService.deps.json
+/Users/serdargulum/Projects/GITHUB/TestService/bin/Debug/net9.0/TestService.runtimeconfig.json
+/Users/serdargulum/Projects/GITHUB/TestService/bin/Debug/net9.0/TestService.dll
+/Users/serdargulum/Projects/GITHUB/TestService/bin/Debug/net9.0/TestService.pdb
+/Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/TestService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/TestService.AssemblyInfoInputs.cache
+/Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/TestService.AssemblyInfo.cs
+/Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/TestService.csproj.CoreCompileInputs.cache
+/Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/TestService.dll
+/Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/refint/TestService.dll
+/Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/TestService.pdb
+/Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/TestService.genruntimeconfig.cache
+/Users/serdargulum/Projects/GITHUB/TestService/obj/Debug/net9.0/ref/TestService.dll
