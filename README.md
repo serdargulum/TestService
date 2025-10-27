@@ -65,8 +65,16 @@ The goal is to benchmark the **performance** and **response time** of the two se
 ## Usage
 
 1. Clone all respective repositories.  
-2. Configure the database connection in each project as described in their README.md files.
+- https://github.com/serdargulum/LarevelService
+- https://github.com/serdargulum/CSharpService
+
+2. Configure the database connection in each repository as described in their README.md files and run services.
 3. Use LaravelService migrations to create and populate the database.
+```bash
+php artisan migrate   
+
+php artisan db:seed
+```
 4. Use the TestService repository to send requests to the respective APIs and measure response time.
  ```bash
  dotnet run
