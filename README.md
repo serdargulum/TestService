@@ -30,14 +30,6 @@ The results show a stark contrast between the C# services (generally high-speed)
 | LaravelService<br>Void | http://127.0.0.1:8000/api/test/void | 2.5710250 | 1000/1000 | 0.0025710 |
 | LaravelService<br>Calculation | http://127.0.0.1:8000/api/test/calculation | 00:00:33.2596666 | 1000/1000 | 0.0332596 |
 
-Then I removed Entity Framework and re-ran the tests using only the Dapper micro-ORM.
-
-| Run | Service                      | URL                                                                                    | Total Time       | Success (ok/total) | Avg per Request  |
-| --- | ---------------------------- | -------------------------------------------------------------------------------------- | ---------------- | ------------------ | ---------------- |
-| 1   | CSharpService<br>Async Dapper | [http://localhost:5230/api/products/dapper](http://localhost:5230/api/products/dapper) | 0.5445311 | 1000/1000          | 0.0005445 |
-| 2   | CSharpService<br>Async Dapper | [http://localhost:5230/api/products/dapper](http://localhost:5230/api/products/dapper) | 0.3056279 | 1000/1000          | 0.0003056 |
-| 3   | CSharpService<br>Async Dapper | [http://localhost:5230/api/products/dapper](http://localhost:5230/api/products/dapper) | 0.2998230 | 1000/1000          | 0.0002998 | 
-
 ## How  
 
 This README explains three separate repositories created for performance testing:
